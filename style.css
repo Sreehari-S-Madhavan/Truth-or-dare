@@ -1,0 +1,50 @@
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #222;
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+
+.game-container {
+  text-align: center;
+}
+
+#wheel {
+  border: 5px solid #fff;
+  border-radius: 50%;
+  margin: 20px auto;
+  background: conic-gradient(
+    #e63946 0deg 45deg,
+    #f1faee 45deg 90deg,
+    #a8dadc 90deg 135deg,
+    #457b9d 135deg 180deg,
+    #1d3557 180deg 225deg,
+    #e63946 225deg 270deg,
+    #f1faee 270deg 315deg,
+    #a8dadc 315deg 360deg
+  );
+}
+
+#spin-button {
+  padding: 10px 20px;
+  font-size: 18px;
+  background-color: #e63946;
+  border: none;
+  border-radius: 5px;
+  color: #fff;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+#spin-button:hover {
+  background-color: #d62828;
+}
+
+#result {
+  font-size: 20px;
+  margin-top: 20px;
+}
